@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F401VC -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\projet emb\cmsis -I..\..\..\workspace\projet emb\cmsis_lib\include -I..\..\..\..\..\Users\lenovo\Desktop -I..\..\..\..\..\Users\lenovo\Desktop\lcd -I..\..\..\workspace -I..\..\..\..\..\Users\lenovo -I..\..\..\workspace\projet emb -I..\..\..\workspace\projet emb\cmsis_lib -I..\..\..\workspace\projet emb\cmsis_boot">
+      <target file="syscalls.o" lastModified="19a6a4c3546">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="19a6a2f3862"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="19a6a4c34a3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="19a6a2fa225"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="19a6a4c3454">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="19a6a3064d8"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="19a6a4c34f6">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="19a6a2f835d"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="19a6a4c3316">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="19a6a2f8343"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="19a6a4c35f3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="19a6a2fb350"/>
+      </target>
+      <target file="main.o" lastModified="19a6a59adc9">
+         <source file="..\..\..\main.c" lastModified="19a6a59ac52"/>
+      </target>
+      <target file="lcd.o" lastModified="19a6a4c35a1">
+         <source file="..\..\..\..\..\..\..\Users\lenovo\Desktop\lcd\lcd.c" lastModified="17e97d96d60"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="19a6a4c33e4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="19a6a2f97e5"/>
+      </target>
+   </processor>
+</history>
